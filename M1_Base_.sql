@@ -21,7 +21,7 @@ INSERT INTO items (item_id, name, price, update_date) VALUES
 (1, 'Ручка шариковая', 5, '2020-05-01'),
 (2, 'Карандаш 1H', 7, '2020-06-01');
 
--- 3. Создаем таблицу orders без FOREIGN KEY (чтобы избежать проблем)
+-- 3. Создаем таблицу orders 
 CREATE TABLE orders (
     order_id INT PRIMARY KEY,
     user_id INT,
